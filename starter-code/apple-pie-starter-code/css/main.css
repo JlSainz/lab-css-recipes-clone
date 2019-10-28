@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  width: 99vw;
+  height: 100vh;
+}
+
+#apple {
+  margin-top: 20px;
+  background-image: url("./../images/apple-pie.jpg");
+  color: white;
+  width: 90%;
+  height: 100%;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+#ingredients {
+  width: 80%;
+  margin-left: 130px;
+  margin-top: 30px;
+}
+
+#recipe-info {
+  border-bottom: 1px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#recipe-info p {
+  width: 100%;
+  font-size: 37px;
+  font-weight: lighter;
+}
+
+#recipe-info img {
+  width: 35%;
+}
+
+#cooking-info {
+  border-bottom: 1px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#cooking-info img {
+  width: 30%;
+}
+
+#cooking-info h3 {
+  font-weight: bold;
+}
+
+#cooking-info ul {
+  margin-right: 60px;
+  font-size: 23px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#cooking-info li {
+  list-style: none;
+}
+
+#directions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#directions h3 {
+  font-weight: bold;
+}
+
+#directions ul {
+  margin-right: 60px;
+  font-size: 23px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#directions li {
+  list-style: none;
+}
